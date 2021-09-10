@@ -1,0 +1,10 @@
+{
+    "/news": {
+      "target": "https://api.coronatracker.com/news/",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/news": ""
+      }
+    }
+  }
